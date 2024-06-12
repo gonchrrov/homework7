@@ -7,7 +7,7 @@ pdf_file = 'tmp2/Locators_table.pdf'
 xls_file = 'tmp2/Book1xls.xls'
 csv_file = 'tmp2/Book2csv.csv'
 
-# Убедимся, что файлы существуют
+# Проверка, что тестовые файлы в папке tmp2
 assert os.path.exists(pdf_file), f"{pdf_file} не существует."
 assert os.path.exists(xls_file), f"{xls_file} не существует."
 assert os.path.exists(csv_file), f"{csv_file} не существует."
