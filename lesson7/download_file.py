@@ -6,7 +6,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 options = webdriver.ChromeOptions()
 prefs = {
-    "download.default_directory": "/Users/goncharov/QAGURU/homework7/tmp",
+    "download.default_directory": "/Users/goncharov/QAGURU/homework7/resources",
     "download.prompt_for_download": False,
 }
 options.add_experimental_option("prefs", prefs)
