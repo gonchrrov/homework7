@@ -1,14 +1,15 @@
 import os.path
 import time
+
 import requests
-import pytest
 from selene import query
 from selene.support.shared import browser
 from selene.support.shared.jquery_style import s
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
-from script_os import TMP_DIR, CURRENT_DIR, CURRENT_FILE
+
+from script_os import TMP_DIR
 
 
 def test_text_in_file():
